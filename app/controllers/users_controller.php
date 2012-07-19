@@ -1,7 +1,7 @@
 <?php
 
 /*
- * posts controller
+ * users controller
  */
 
 class UsersController extends AppController
@@ -9,6 +9,7 @@ class UsersController extends AppController
   var $helpers = array ('Html','Form', 'Session');
   var $name = 'Users';
   var $components = array('Auth', 'Session');
+  var $layout = 'login';
   
   function login()
   {
@@ -23,8 +24,8 @@ class UsersController extends AppController
 	if(!empty($someone['User']['username']) && $someone['User']['password']== $this->data['User']['password']){
 	  $this->Session->write('User', $someone['User']);
 	  
-	  $this->redirect('/');
 	  $this->Session->setFlash($someone['User']['username'].', Welcome back!!');
+	  $this->redirect('/');
 	}
   }
   

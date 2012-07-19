@@ -6,9 +6,10 @@
 
 class PostsController extends AppController
 {
-  var $helpers = array ('Html','Form', 'Javascript');
+  var $helpers = array ('Html','Form', 'Javascript', 'Session');
   var $name = 'Posts';
   var $components = array('Session');
+  var $layout = 'post';
   
   function index()
   {

@@ -2,7 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
+$.mynamespace = { 
+    randomNum1 :0, 
+    randomNum2 : 0
+}; 
 
 $(document).ready(function(){
   
@@ -46,5 +49,38 @@ $(document).ready(function(){
 	$(this).css('visibility', 'hidden');
 	$(window).scrollTop();
   });
-
+  
+  
+  // project grid
+  // set up hover panels
+  // although this can be done without JavaScript, we've attached these events
+  // because it causes the hover to be triggered when the element is tapped on a touch device
+	$('.hover').hover(function(){
+		$(this).addClass('flip');
+	},function(){
+		$(this).removeClass('flip');
+	});
+	
+	var num = $('.panel').length;
+	
+	
+	setInterval(function() {
+	  if($.mynamespace.randomNum1 != $.mynamespace.randomNum2){
+		$.mynamespace.randomNum1 = Math.floor(Math.random()*num);
+		$('.panel').eq($.mynamespace.randomNum1).addClass('flip');
+		setTimeout(function() {
+		  $('.panel').eq($.mynamespace.randomNum1).removeClass('flip');
+		}, 2000);
+	  }
+	}, 4000);
+	  
+	setInterval(function() {
+	  $.mynamespace.randomNum2 = Math.floor(Math.random()*num);
+	  $('.panel').eq($.mynamespace.randomNum2).addClass('flip');
+	  setTimeout(function() {
+		$('.panel').eq($.mynamespace.randomNum2).removeClass('flip');
+		}, 3000)
+	  }, 5000); 
+	
+	
 });

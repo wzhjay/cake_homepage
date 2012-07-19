@@ -3,9 +3,11 @@
  <head>
   <title>Zihao's homepage</title>
   <?php echo $html->css('style.css'); ?>
+  <?php echo $html->css('capture.css'); ?>
   <?php echo $html->css('/bootstrap/css/bootstrap.min.css'); ?>
   <?php echo $html->css('/bootstrap/css/bootstrap-responsive.min.css'); ?>
   <?php echo $javascript->link('jquery.min.js', true); ?>
+  <?php echo $javascript->link('/bootstrap/js/bootstrap.js', true); ?>
   <?php echo $javascript->link('events.js', true); ?>
   <?php echo $javascript->link('/bootstrap/js/bootstrap.min.js', true); ?>
  </head>

@@ -11,8 +11,8 @@
   <?php echo $javascript->link('/bootstrap/js/bootstrap.min.js', true); ?>
  </head>
  <body>
-   
    <?php echo $this->element('header'); ?>
+
    <div class="page">
     <div class="errors">
      <?php 
@@ -20,15 +20,12 @@
       if($session->check('Message.auth')) $session->flash('auth');
      ?>
     </div>
-	<div class="content">
-	  <div class="profilo">
+	  <div class="content">
 		<?php echo $content_for_layout; ?>
 	  </div>
-	</div>
-	 <?php echo $this->element('sidebar'); ?>
 	 <?php echo $this->element('scrollToTop'); ?>
    </div>
-<!--   <div id="footer">
+<!--  <div id="footer">
    <p>Copyright (c) 2010 CakePHP Blog</p>
   </div>-->
  </body>

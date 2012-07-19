@@ -1,13 +1,12 @@
-<?if ($error): ?>
+<?php if ($error): ?>
 <p>The login credentials you supplied could not be recognized. Please try again.</p>
-<? endif; ?>
+<?php endif; ?>
 
 <h1 class="myheader">Login</h1>
 <div id="login-form">
   <?php
 	echo $this->Session->flash('auth');
 	echo $this->Form->create('User', array('action'=>'login'));
-  //  echo $this->Form->input('', array('legend' => __('Login', true)));
 
 	echo $this->Form->input('username', array(
 		'label' => 'Username',
