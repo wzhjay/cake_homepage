@@ -10,11 +10,11 @@ $.mynamespace = {
 $(document).ready(function(){
   
 //  handle the animation of the float sidebar
-  var menuYloc = parseInt($('#sidebar').css("top"));
+  var menuYloc = parseInt($('.sidebar').css("top"));
   
   $(window).scroll(function(){
 	var offset = menuYloc+$(document).scrollTop()+"px";
-	var div = $('#sidebar');
+	var div = $('.sidebar');
 	div.animate({top:offset},{duration:500,queue:false});
 	
 	

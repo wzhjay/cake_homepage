@@ -16,7 +16,7 @@ class PostsController extends AppController
 	$this->set('posts', $this->Post->find('all', array(
 	  'order' => array('Post.modified DESC')
 		)
-	));
+	));	
   }
   
   function view($id = null)
@@ -51,6 +51,16 @@ class PostsController extends AppController
 		$this->Session->setFlash('Your post has been updated.');
 		$this->redirect(array('action' => 'index'));
 	  }    
+	}
+  }
+  
+  function latest() {
+	$posts = $this->Post->find('all', array('order' => 'Post.created DESC', 'limit' => 4));
+	if (!empty($this->params['requested'])) {
+	  return $posts;
+	}
+	else {
+	  $this->set(compact('posts'));
 	}
   }
 

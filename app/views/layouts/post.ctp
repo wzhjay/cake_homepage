@@ -23,6 +23,7 @@
 	  <div class="content">
 		<?php echo $content_for_layout; ?>
 	  </div>
+	 <?php echo $this->element('recentposts', array('posts' => $posts)); ?>
 	 <?php echo $this->element('scrollToTop'); ?>
    </div>
 <!--  <div id="footer">

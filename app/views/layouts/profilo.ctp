@@ -25,7 +25,7 @@
 		<?php echo $content_for_layout; ?>
 	  </div>
 	</div>
-	 <?php echo $this->element('sidebar'); ?>
+	 <?php echo $this->element('contact'); ?>
 	 <?php echo $this->element('scrollToTop'); ?>
    </div>
 <!--   <div id="footer">

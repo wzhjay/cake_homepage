@@ -199,7 +199,7 @@ a:hover {
 
 /* Sidebar */
 
-#sidebar {
+.sidebar {
  position: relative;
  top:0px;
  float: right;
@@ -210,7 +210,7 @@ a:hover {
 }
 
 .sidebar-content{
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 18px;
 }
 
 #social-link {
@@ -235,7 +235,7 @@ a:hover {
 }
 
 #contact-info{
-  padding: 0px 0px 0px 18px;
+  padding: 0px 0px 0px 0px;
 }
 
 #contact-info p {
@@ -266,6 +266,25 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.5);
   -webkit-border-radius: 4px;
 }
+
+.recent_post_title {
+  padding: 0px 0px 0px 0px;
+  font: italic 15px Georgia, Arial, Helveti
+}
+
+.recent_post_time {
+  font-size: 8px;
+  padding: 0px 0px 0px 0px;
+  color: black;
+}
+
+.recent_post_body {
+  height: 33px;
+  padding: 0px 0px 5px 15px;
+  font: 9px Georgia, serif;
+  overflow: hidden;
+}
+
 
 
 /*projects*/
@@ -299,7 +318,7 @@ a:hover {
 
 .project-actions {
   font-size: 13px;
-  padding: 110px 0px 0px 125px;
+  padding: 40px 0px 0px 125px;
 }
 
 .add-project {

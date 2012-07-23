@@ -1,6 +1,6 @@
-<div id="sidebar">
+<div class="sidebar">
   <h2 class="myheader">Find Me!</h2>
-  <div id="sidebar-content">
+  <div class="sidebar-content">
 	<ul id="social-link">
 	  <li>
 		<a style="background-position: 0px -32px;" target="_blank" href="http://www.weibo.com/merrygoroundwithme"></a>
