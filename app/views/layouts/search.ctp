@@ -20,11 +20,10 @@
       if($session->check('Message.auth')) $session->flash('auth');
      ?>
     </div>
-	  <div class="content">
-		<?php echo $content_for_layout; ?>
-	  </div>
-	 <?php echo $this->element('recentposts'); ?>
-	 <?php echo $this->element('scrollToTop'); ?>
+	<div class="content">
+	  <?php echo $content_for_layout; ?>
+	</div>
+	<?php echo $this->element('scrollToTop'); ?>
    </div>
 <!--  <div id="footer">
    <p>Copyright (c) 2010 CakePHP Blog</p>

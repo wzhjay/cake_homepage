@@ -63,6 +63,17 @@ class PostsController extends AppController
 	  $this->set(compact('posts'));
 	}
   }
+//  
+//  function search() {
+//	$posts = $this->Post->find('all', array('order' => 'Post.created DESC'));
+//	if (!empty($this->params['requested'])) {
+//	  return $posts;
+//	}
+//	else {
+//	  $this->set(compact('posts'));
+//	}
+//  }
+  
 
 }
 ?>

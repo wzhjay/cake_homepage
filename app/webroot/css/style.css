@@ -344,6 +344,19 @@ a:hover {
   font: 13px Georgia, serif;
 }
 
+/*search*/
+
+.mysubheader {
+  padding: 0px 0px 10px 15px;
+  color: #999999;
+  font: 18px Georgia, serif;
+}
+
+.search-highlight {
+  background-color: #00FF00;
+}
+
+
 /*flip */
 
 .panel {

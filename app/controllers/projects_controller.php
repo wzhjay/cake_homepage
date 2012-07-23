@@ -69,5 +69,15 @@ class ProjectsController extends AppController
 	}
   }
   
+//  function search() {
+//	$projects = $this->Project->find('all', array('order' => 'Project.created DESC'));
+//	if (!empty($this->params['requested'])) {
+//	  return $projects;
+//	}
+//	else {
+//	  $this->set(compact('projects'));
+//	}
+//  }
+//  
 }
 ?>
