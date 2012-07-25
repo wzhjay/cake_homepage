@@ -19,7 +19,7 @@
 	  <div class="alert alert-success">
 		<h4>Contact Me:</h4>
 		<p><i class="icon-envelope"></i> Email : <a href="mailto:wzhjay@gmial.com" >wzhjay@gmail.com</a></p>
-		<p><i class="icon-inbox"></i> Address : <a>25 Lower Kent Ridge Road, RVR TB/2/234, Singapore 119081</a></p>
+		<p><i class="icon-inbox"></i> Address : <a>21 Prince George’s Park Residence 1, BLK 3 #08-Room I, Singapore 118420</a></p>
 		<p><i class="icon-headphones"></i> Tel : <a href="tel:006585102085">+65 85102085</a></p>
 	  </div>
 	</div>

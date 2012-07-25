@@ -3,9 +3,9 @@
  * download the pdf file
  */
 
-	$fn = "files/hello.pdf".md5(time().rand(0, 1000));
+	$fn = "files/Resume_Wang_Ziaho.pdf";
 	header( 'Content-type: application/PDF' );
-	header('Content-Disposition: attachment; filename="test.pdf"' );
+	header('Content-Disposition: attachment; filename="Resume_Wang_Ziaho.pdf"' );
 	readfile($fn);
 
 ?>
