@@ -48,7 +48,7 @@
   
   <div class="alert alert-info">
 	<h3>Languages:</h3>
-	<p>English></p>
+	<p>English</p>
 	<p>Chinese (Mandarin & Cantonese)</p>
 	<p>Japanese</p><br>
 	
