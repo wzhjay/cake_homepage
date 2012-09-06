@@ -1,4 +1,16 @@
 <div class="profilo-content">
+  
+  <div class="alert alert-info">
+
+  <h2>Part-time developer -- CarbonStory.org</h2>
+  <p class="profilo-small">1rd September, 2012 -- NOW</p>
+  <p>CarbonStory is a social start-up venture in the sustainability field. Through an innovative fusion of storytelling, social media and climate science, creating a web platform where individuals come together to tackle the challenges of climate change. With CarbonStory, users get science-based tools to quantify their carbon footprint, the opportunity to build a portfolio of offset projects around the world, the ability to post their activities on Facebook and the possibility to challenge Facebook friends</p>
+  <p class="profilo-small">Job title: Systems Administration </p>
+  <p>Using Amazon AWS technologies, setup of development, staging and production servers for a LAMP+Redis environment, configuration of SSL certificates, load balancing, etc. </p><br>
+  <p><img src="img/parttime_office.jpg" alt="parttime_office"></p>
+  </div>
+  
+  
   <div class="alert alert-info">
 
   <h2>Summer Internship -- GlobalSign.in Pte Ltd</h2>
